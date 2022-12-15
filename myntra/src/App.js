@@ -11,7 +11,7 @@ import KidsBody from './components/kids/KidsBody';
 import HomeAndLiving from './components/homeAndLiving/HomeAndLiving';
 import LogIn from './components/login/LogIn';
 import WishList from './components/wishlist/WishList';
-//import FilterMen from './components/filter/FilterMen';
+import FilterMen from './components/filter/FilterMen';
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
         <Route path={'/homeandliving'} component={HomeAndLiving} />
         <Route path={'/login'} component={LogIn} />
         <Route path={'/wishlist'} component={WishList} />
-        {/* <Route path={'/filtermen'} component={FilterMen} /> */}
+        <Route path={'/filtermen'} component={FilterMen} />
 
         <Footer />
         <hr />
